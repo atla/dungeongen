@@ -1,9 +1,14 @@
 package dungeon
 
+
+import (
+	"github.com/atla/dungogen/pkg/data"
+)
+
 //Generator ...
 type Generator struct {
-	dimension        Dimension
-	creationStrategy (func(d *Data))
+	dimension        data.Dimension
+	creationStrategy (func(d *data.Data))
 }
 
 //NewGenerator ...

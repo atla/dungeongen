@@ -1,9 +1,8 @@
-package dungeon
+package data
 
 // Dungeon structure
 type Dungeon struct {
 	Data *Data
-	
 }
 
 // New creates a new dungeon
