@@ -1,3 +1,3 @@
-module github.com/atla/dunggogen/cmd/gen
+module github.com/atla/dungeongen/cmd/gen
 
 go 1.12

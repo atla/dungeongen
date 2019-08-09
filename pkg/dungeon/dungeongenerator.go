@@ -2,7 +2,7 @@ package dungeon
 
 
 import (
-	"github.com/atla/dungogen/pkg/data"
+	"github.com/atla/dungeongen/pkg/data"
 )
 
 //Generator ...
@@ -14,6 +14,7 @@ type Generator struct {
 //NewGenerator ...
 func NewGenerator() *Generator {
 	return &Generator{}
+
 }
 
 //Dimension adds Dimension to generators
@@ -25,3 +26,8 @@ func (g *Generator) Dimension(width, height int) *Generator {
 	return g
 
 }
+
+func (g* Generator) build () Dungeon* {
+
+	
+}  

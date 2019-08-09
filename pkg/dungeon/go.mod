@@ -1,3 +1,3 @@
-module github.com/atla/dunggogen/pkg/dungeon
+module github.com/atla/dungeongen/pkg/dungeon
 
 go 1.12
