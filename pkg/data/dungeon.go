@@ -5,7 +5,7 @@ type Dungeon struct {
 	Data *Data
 }
 
-// New creates a new dungeon
-func New() *Dungeon {
+// NewDungeon creates a new dungeon
+func NewDungeon() *Dungeon {
 	return &Dungeon{}
 }

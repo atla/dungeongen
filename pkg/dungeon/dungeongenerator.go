@@ -19,7 +19,7 @@ func NewGenerator() *Generator {
 
 //Dimension adds Dimension to generators
 func (g *Generator) Dimension(width, height int) *Generator {
-	g.dimension = Dimension{
+	g.dimension = data.Dimension{
 		Width:  width,
 		Height: height,
 	}
@@ -27,7 +27,9 @@ func (g *Generator) Dimension(width, height int) *Generator {
 
 }
 
-func (g* Generator) build () Dungeon* {
+func (g* Generator) build () *data.Dungeon {
 
-	
+	dungeon := data.NewDungeon()
+
+	return dungeon
 }  
