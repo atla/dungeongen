@@ -1,3 +1,3 @@
-module github.com/atla/dunggogen/pkg/data
+module github.com/atla/dungeongen/pkg/data
 
 go 1.12

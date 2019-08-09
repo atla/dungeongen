@@ -2,7 +2,7 @@ package dungeon
 
 
 import (
-	"github.com/atla/dungogen/pkg/data"
+	"github.com/atla/dungeongen/pkg/data"
 )
 
 //Generator ...
